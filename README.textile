@@ -4,5 +4,10 @@ Puts Google Reader on a margin diet, and puts some nice borders back in where yo
 
 h2. Installation
 
-Download the user.js, and drag it onto Chrome to install it. You can uninstall it on the extensions pane.
+Either of:
+
+* "Click here.":https://github.com/clint-tseng/greader-diet/raw/master/greader-diet.user.js
+* Download the .user.js userscript, and drag it onto Chrome to install it.
+
+You can uninstall it on the extensions pane.
 
