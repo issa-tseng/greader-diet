@@ -2,6 +2,10 @@ h1. greader-diet
 
 Puts Google Reader on a margin diet, and puts some nice borders back in where you'd like them to be. See "here":https://skitch.com/cxlt/gee6q/google-reader-diet for a sample screenshot.
 
+h2. Requirements
+
+Google Chrome, or Greasemonkey on a browser that supports it. Probably doesn't work on IE <9.
+
 h2. Installation
 
 Either of:
