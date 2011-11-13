@@ -1,0 +1,8 @@
+h1. greader-diet
+
+Puts Google Reader on a margin diet, and puts some nice borders back in where you'd like them to be. See "here":https://skitch.com/cxlt/gee6q/google-reader-diet for a sample screenshot.
+
+h2. Installation
+
+Download the user.js, and drag it onto Chrome to install it. You can uninstall it on the extensions pane.
+
