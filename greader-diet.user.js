@@ -76,7 +76,7 @@ var styles = { '->': {
                                 'display': 'none'
                             },
 
-                            '#entries': {
+                            '#entries.cards': {
                                 'border-top': '0',
                                 'padding': '5px',
                                 'padding-right': '1px',
@@ -118,6 +118,51 @@ var styles = { '->': {
                                         '->': {
                                             '.card': {
                                                 'border-color': '#fff'
+                                            }
+                                        }
+                                    }
+                                }
+                            },
+
+                            '#entries.list': {
+                                'border-top': '0',
+                                'padding': '5px',
+                                'padding-right': '1px',
+
+                                '->': {
+                                    '.entry': {
+
+                                        '->': {
+                                            '.collapsed': {
+                                                'padding': '2px 0',
+
+                                                '->': {
+                                                    '.entry-icons': {
+                                                        'top': '3px'
+                                                    },
+
+                                                    '.entry-secondary': {
+                                                        'top': '3px'
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    },
+
+                                    '#current-entry': {
+                                        'border': '2px solid #bbb',
+                                        'border-radius': '8px',
+                                        'box-shadow': '0 0 5px rgba(0, 0, 0, 0.15)',
+
+                                        '->': {
+                                            '.collapsed': {
+                                                'border-top': '0',
+                                                'border-radius': '8px 8px 0 0'
+                                            },
+
+                                            '.entry-actions': {
+                                                'border-bottom': '0',
+                                                'border-radius': '0 0 8px 8px'
                                             }
                                         }
                                     }
@@ -167,7 +212,9 @@ document.head.appendChild(styleElem);
 
 var e = document.createEvent('HTMLEvents');
 e.initEvent('resize', true, false);
-window.dispatchEvent(e);*/
+window.dispatchEvent(e);
+
+i'd really love to get rid of this nastiness: */
 
 var feedContainer = document.getElementById('scrollable-sections');
 feedContainer.style.height = parseInt(feedContainer.style.height) + 54 + 'px';
