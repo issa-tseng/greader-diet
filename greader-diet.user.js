@@ -1,6 +1,8 @@
 // ==UserScript==
 // @match http://reader.google.com/*
 // @match http://www.google.com/reader/*
+// @match https://reader.google.com/*
+// @match https://www.google.com/reader/*
 // ==/UserScript==
 
 (function() {
