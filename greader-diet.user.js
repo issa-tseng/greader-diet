@@ -88,7 +88,7 @@ var styles = { '->': {
                                         'border': '2px solid #ebebeb',
                                         'border-radius': '8px',
                                         'margin-bottom': '8px',
-                                        'padding': '0 10px 40px',
+                                        'padding': '0 10px 25px',
 
                                         '->': {
                                             '.card': {
@@ -110,7 +110,7 @@ var styles = { '->': {
                                     },
 
                                     '.entry-0': {
-                                        'padding': '0 10px'
+                                        'padding': '0 10px 25px'
                                     },
 
                                     '#current-entry': {
