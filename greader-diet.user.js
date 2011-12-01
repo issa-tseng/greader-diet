@@ -118,6 +118,10 @@ var styles = { '->': {
                                                 'padding-left': '1em',
 
                                                 '->': {
+                                                    '.card-content': {
+                                                        'padding': '15px 10px 0'
+                                                    },
+
                                                     '.card-actions': {
                                                         'border': '0',
                                                         'border-top': '1px solid #ebebeb',
@@ -137,8 +141,7 @@ var styles = { '->': {
                                         '->': {
                                             '.card': {
                                                 'border-color': '#bbb',
-                                                'box-shadow': '0 0 5px rgba(0, 0, 0, 0.15)',
-                                                'border-color': '#fff'
+                                                'box-shadow': '0 0 5px rgba(0, 0, 0, 0.15)'
                                             }
                                         }
                                     }
