@@ -8,12 +8,28 @@
 (function() {
 
 var styles = { '->': {
-    '#top-bar': {
-        'height': '40px',
+    '#gb': {
+        'height': '51px',
 
         '->': {
-            '#search': {
-                'padding': '6px 0'
+            '#gbqlw': { // logo image
+                'height': '53px'
+            },
+
+            '#gbq2': { // search bar
+                'padding-top': '10px'
+            },
+
+            '#gbv': {
+                'padding-top': '13px'
+            },
+
+            '#gbx1': { // bg
+                'height': '50px'
+            },
+
+            '#gbx2': { // bg
+                'height': '50px'
             }
         }
     },
@@ -23,7 +39,12 @@ var styles = { '->': {
             '#nav': {
 
                 '->': {
+                    '#logo-section': {
+                        'display': 'none'
+                    },
+
                     '#lhn-add-subscription-section': {
+                        'border-bottom': '1px solid #ebebeb',
                         'height': '39px',
 
                         '->': {
@@ -85,13 +106,15 @@ var styles = { '->': {
 
                                 '->': {
                                     '.entry': {
-                                        'border': '2px solid #ebebeb',
-                                        'border-radius': '8px',
                                         'margin-bottom': '8px',
-                                        'padding': '0 10px 25px',
+                                        'margin-top': '0',
+                                        'padding': '0',
 
                                         '->': {
                                             '.card': {
+                                                'border': '2px solid #ebebeb',
+                                                'border-radius': '8px',
+                                                'padding-bottom': '40px',
                                                 'padding-left': '1em',
 
                                                 '->': {
@@ -100,25 +123,21 @@ var styles = { '->': {
                                                         'border-top': '1px solid #ebebeb',
                                                         'border-radius': '0 0 8px 8px',
                                                         'position': 'absolute',
-                                                        'left': '0',
-                                                        'right': '0',
-                                                        'bottom': '0'
+                                                        'left': '2px',
+                                                        'right': '2px',
+                                                        'bottom': '2px'
                                                     }
                                                 }
                                             }
                                         }
                                     },
 
-                                    '.entry-0': {
-                                        'padding': '0 10px 25px'
-                                    },
-
                                     '#current-entry': {
-                                        'border-color': '#bbb',
-                                        'box-shadow': '0 0 5px rgba(0, 0, 0, 0.15)',
 
                                         '->': {
                                             '.card': {
+                                                'border-color': '#bbb',
+                                                'box-shadow': '0 0 5px rgba(0, 0, 0, 0.15)',
                                                 'border-color': '#fff'
                                             }
                                         }
@@ -136,15 +155,20 @@ var styles = { '->': {
 
                                         '->': {
                                             '.collapsed': {
+                                                'height': '25px',
                                                 'padding': '2px 0',
 
                                                 '->': {
                                                     '.entry-icons': {
-                                                        'top': '3px'
+                                                        'margin-top': '-7px'
                                                     },
 
-                                                    '.entry-secondary': {
-                                                        'top': '3px'
+                                                    '.entry-date': {
+                                                        'line-height': '25px'
+                                                    },
+
+                                                    '.entry-title': {
+                                                        'line-height': '25px'
                                                     }
                                                 }
                                             }
