@@ -234,18 +234,5 @@ styleElem.appendChild(textElem);
 
 document.head.appendChild(styleElem);
 
-/* someone please tell me why this isn't working.
-
-var e = document.createEvent('HTMLEvents');
-e.initEvent('resize', true, false);
-window.dispatchEvent(e);
-
-i'd really love to get rid of this nastiness: */
-
-var feedContainer = document.getElementById('scrollable-sections');
-feedContainer.style.height = parseInt(feedContainer.style.height) + 54 + 'px';
-var entriesContainer = document.getElementById('viewer-entries-container');
-entriesContainer.style.height = parseInt(entriesContainer.style.height) + 54 + 'px';
-
 })();
 
