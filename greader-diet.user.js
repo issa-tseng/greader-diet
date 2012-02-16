@@ -1,4 +1,5 @@
 // ==UserScript==
+// @version 1.1
 // @match http://reader.google.com/*
 // @match http://www.google.com/reader/*
 // @match https://reader.google.com/*
@@ -24,7 +25,12 @@ var styles = { '->': {
                 'top': '0',
 
                 '->': {
+                    '#gbq1': { // logo
+                        'margin-left': '15px'
+                    },
+
                     '#gbq2': { // search bar
+                        'margin-left': '239px',
                         'padding-top': '12px'
                     }
                 }
