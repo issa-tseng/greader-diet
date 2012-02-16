@@ -9,27 +9,57 @@
 
 var styles = { '->': {
     '#gb': {
-        'height': '51px',
+        'height': '50px',
 
         '->': {
+            '#gbzw': { // black bar of doom
+                'display': 'none'
+            },
+
             '#gbqlw': { // logo image
                 'height': '53px'
             },
 
-            '#gbq2': { // search bar
-                'padding-top': '10px'
+            '#gbq': { // greybar left
+                'top': '0',
+
+                '->': {
+                    '#gbq2': { // search bar
+                        'padding-top': '12px'
+                    }
+                }
             },
 
-            '#gbv': {
-                'padding-top': '13px'
+            '#gbu': { // user menu
+                'padding': '13px 0',
+                'top': '0 !important'
             },
 
             '#gbx1': { // bg
-                'height': '50px'
+                'height': '50px',
+                'top': '0'
             },
 
             '#gbx2': { // bg
-                'height': '50px'
+                'height': '50px',
+                'top': '0'
+            },
+
+            '#gbx3': { // black bar of doom
+                'display': 'none'
+            },
+
+            '#gbx4': { // black bar of doom
+                'display': 'none'
+            }
+        }
+    },
+    '#top-bar': {
+        'height': '50px',
+
+        '->': {
+            '#logo': {
+                'margin-top': '-7px'
             }
         }
     },
